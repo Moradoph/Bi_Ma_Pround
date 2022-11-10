@@ -41,9 +41,14 @@
                     </div></Router-link>
                     <hr class="my-4 text-gray-600">
 
-                    <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:text-white hover:bg-indigo-200">
-                    <span class="text-[15px] ml-4 text-indigo-400 ">Logout</span>
+                    <a href="https://www.youtube.com/watch?v=_U676XxCmkE&list=PL-P1AwMMwKz2OmjEJoTj0-HYrL9erxFcy"><div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:text-white hover:bg-indigo-200">
+                    <span class="text-[15px] ml-4 text-indigo-400 ">Listening to Music</span>
+                    </div>    
+                    </a>
+                    <a href="https://github.com/Moradoph"><div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:text-white hover:bg-indigo-200">
+                    <span class="text-[15px] ml-4 text-indigo-400 ">Github</span>
                     </div>
+                    </a>
                     <div class="relative h-40 w-40 rounded overflow-hidden bg-white mx-auto my-10">
                     <img class="h-full bg-cover bg-center bg-no-repeat" src="https://upload.wikimedia.org/wikipedia/commons/9/97/KU_Logo.png" alt="logo">
                     </div>
