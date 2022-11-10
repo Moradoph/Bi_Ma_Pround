@@ -1,9 +1,10 @@
 <template>
     <div class="bg-indigo-100 flex justify-center">
 
-        <div class="flex relative m-8 max-h-lg h-40 max-w-lg shadow-lg shadow-indigo-200 bg-white active:bg-indigo-800 active:text-white hover:bg-gray-100 hover:scale-110 transition delay-150 duration-300 ease-in-out rounded bg-cover shadow-lg">
-            <div class="h-40 w-30 rounded" :style="getUrlImage(image)">
-                <img src="/assets/images/profile-pic.jpg" class="h-40 w-30 rounded justify-items-start">
+        <div class="flex relative m-8 max-h-lg h-40 max-w-xl shadow-lg shadow-indigo-200 bg-white active:bg-indigo-800 active:text-white hover:bg-gray-100 hover:scale-110 transition delay-150 duration-300 ease-in-out rounded bg-cover">
+            <div class="relative h-40 w-40 rounded overflow-hidden bg-white mx-auto">
+                <div class="h-full bg-cover bg-center bg-no-repeat hover:scale-110 transition delay-150 duration-300 ease-in-out" :style="getUrlImage(image)"></div>
+                />
             </div>
             <div class="max-ml-lg mb-6 ml-12 mr-12 mt-5 font-mono">
                 <div class="bg-indigo-500 mix-blend-multiply max-w-2xl w-60 rounded-full">
